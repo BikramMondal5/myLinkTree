@@ -1,4 +1,4 @@
-# 🔗 MyLinkTree: 
+# 🌟🔗 MyLinkTree — A personalized link hub for your digital presence.
 
 A playful, responsive personal LinkTree built with Next.js. It brings together my GitHub, LinkedIn, portfolio, resume, coding profiles, and social links in one clean page with animated cards, bold shadows, and a warm profile-first layout. ✨
 
@@ -53,10 +53,6 @@ npm run dev
 ```bash
 http://localhost:3000
 ```
-
-## 📸 Screenshot
-
-Add a current app screenshot at `public/screenshot.png` to make the preview image above render on GitHub.
 
 ## 🚀 How to Use
 
