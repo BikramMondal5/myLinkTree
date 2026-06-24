@@ -252,14 +252,14 @@ const LinkTreeQrCode = () => {
       initial={{ opacity: 0, x: -16 }}
       animate={{ opacity: 1, x: 0 }}
       transition={{ delay: 0.8, duration: 0.5 }}
-      className="rounded-2xl border-4 border-dotted border-black bg-[#FFF5DB] p-2"
+      className="origin-bottom-left rounded-2xl border-4 border-dotted border-black bg-[#FFF5DB] p-2"
     >
       <Image
         src="/bikram_linktree_qr.png"
         alt="QR code for Bikram Mondal LinkTree"
-        width={160}
-        height={160}
-        className="h-32 w-32 rounded-xl lg:h-36 lg:w-36"
+        width={208}
+        height={208}
+        className="h-44 w-44 rounded-xl lg:h-48 lg:w-48"
       />
     </motion.div>
   )
@@ -269,7 +269,7 @@ const LinkTreeQrCode = () => {
 const MyLinkTree = () => {
   return (
     <div className="relative min-h-screen bg-[#FDF3B1] py-10 px-4 sm:py-12">
-      <div className="absolute bottom-24 left-[clamp(1rem,calc(50%_-_720px),3rem)] hidden md:block">
+      <div className="absolute bottom-24 left-[clamp(1rem,calc(50%_-_720px),3rem)] hidden lg:block">
         <LinkTreeQrCode />
       </div>
 
