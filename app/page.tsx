@@ -187,6 +187,7 @@ const LinkCard = ({ item, index }: LinkCardProps) => {
       whileHover={{ y: -4 }}
       whileTap={{ scale: 0.98 }}
       className="block w-full cursor-pointer rounded-2xl border-4 border-black bg-[#FFF5DB] p-5 shadow-[6px_6px_0px_#000000] transition-all hover:shadow-[8px_8px_0px_#000000] lg:p-6"
+      style={{ backgroundColor: "#FFF5DB" }}
     >
       <div className="flex items-center gap-4 lg:gap-5">
         <div className="relative flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-xl border-3 border-black bg-[#FF8A00] p-2.5 shadow-[3px_3px_0px_#000000] lg:h-14 lg:w-14 lg:p-3">
