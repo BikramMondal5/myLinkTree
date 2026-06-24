@@ -269,7 +269,7 @@ const LinkTreeQrCode = () => {
 const MyLinkTree = () => {
   return (
     <div className="relative min-h-screen bg-[#FDF3B1] px-4 py-8 sm:py-10 lg:py-12">
-      <div className="absolute bottom-24 left-[clamp(1rem,calc(50%_-_720px),3rem)] hidden lg:block">
+      <div className="absolute bottom-24 left-[clamp(2.5rem,calc(50%_-_680px),5rem)] hidden lg:block">
         <LinkTreeQrCode />
       </div>
 
