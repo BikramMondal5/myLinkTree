@@ -1,12 +1,20 @@
 # 🌟🔗 MyLinkTree — A personalized link hub for your digital presence.
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-16-black?style=for-the-badge&logo=next.js" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-v4-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+  <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" />
+</p>
+<img src="./public/image.png" alt="Preview Image" />
+
+
 A playful, responsive personal LinkTree built with Next.js. It brings together my GitHub, LinkedIn, portfolio, resume, coding profiles, and social links in one clean page with animated cards, bold shadows, and a warm profile-first layout. ✨
 
 ## 🌟 Features
 
 - 👤 Profile-first landing page with avatar, headline, and short bio
 - 🔗 Quick-access cards for GitHub, LinkedIn, Portfolio, Resume, GeeksforGeeks, LeetCode, and Kaggle
-- 🎯 Custom LinkedIn `in` and LeetCode `</>` marks for crisp logo rendering
 - 🖼️ Optimized images with Next.js image handling
 - 🎬 Smooth hover and entrance animations powered by Framer Motion
 - 📱 Responsive layout that works neatly on mobile and desktop
