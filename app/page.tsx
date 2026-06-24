@@ -236,20 +236,44 @@ const Footer = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ delay: 1, duration: 0.5 }}
-      className="text-center py-6"
+      className="-mt-2 pb-3 text-center"
     >
-      <p className="text-sm font-medium text-[#111827]/60">
+      <p className="text-center text-sm font-medium text-[#111827]/60">
         © 2026 Bikram Mondal. All rights reserved.
       </p>
     </motion.footer>
   )
 }
 
+// QR Code Component
+const LinkTreeQrCode = () => {
+  return (
+    <motion.div
+      initial={{ opacity: 0, x: -16 }}
+      animate={{ opacity: 1, x: 0 }}
+      transition={{ delay: 0.8, duration: 0.5 }}
+      className="rounded-2xl border-4 border-dotted border-black bg-[#FFF5DB] p-2"
+    >
+      <Image
+        src="/bikram_linktree_qr.png"
+        alt="QR code for Bikram Mondal LinkTree"
+        width={160}
+        height={160}
+        className="h-32 w-32 rounded-xl lg:h-36 lg:w-36"
+      />
+    </motion.div>
+  )
+}
+
 // Main Component
 const MyLinkTree = () => {
   return (
-    <div className="min-h-screen bg-[#FDF3B1] py-12 px-4">
-      <div className="max-w-[500px] mx-auto space-y-8">
+    <div className="relative min-h-screen bg-[#FDF3B1] py-10 px-4 sm:py-12">
+      <div className="absolute bottom-24 left-[clamp(1rem,calc(50%_-_720px),3rem)] hidden md:block">
+        <LinkTreeQrCode />
+      </div>
+
+      <div className="max-w-[500px] mx-auto flex flex-col gap-6">
         <ProfileCard />
         <SocialIcons />
 

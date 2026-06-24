@@ -1,7 +1,7 @@
 import qrcode
 
-# Your website URL
-URL = "https://mylinktree.vercel.app"
+# Amar website er URL
+URL = "https://bikram-linktree.vercel.app"
 
 # Create QR Code
 qr = qrcode.QRCode(
@@ -23,5 +23,5 @@ img = qr.make_image(
 # Save QR Code
 img.save("mylinktree_qr.png")
 
-print("✅ QR Code generated successfully!")
-print("📁 Saved as: mylinktree_qr.png")
+print("QR Code generated successfully!")
+print("Saved as: mylinktree_qr.png")
