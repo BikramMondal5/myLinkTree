@@ -69,25 +69,25 @@ const linksData: LinkItem[] = [
 
 const socialLinks: SocialItem[] = [
   {
-    href: "https://wa.me/1234567890",
+    href: "https://api.whatsapp.com/send?phone=917439589152",
     ariaLabel: "WhatsApp",
     icon: MessageCircle,
     color: "#25D366",
   },
   {
-    href: "https://twitter.com/bikrammondal",
-    ariaLabel: "Twitter",
+    href: "https://x.com/CSnippets62428",
+    ariaLabel: "X",
     icon: AtSign,
     color: "#1DA1F2",
   },
   {
-    href: "https://instagram.com/bikrammondal",
+    href: "https://www.instagram.com/code_snippets5",
     ariaLabel: "Instagram",
     icon: Camera,
     color: "#E4405F",
   },
   {
-    href: "mailto:bikram@example.com",
+    href: "mailto:codesnippets45@gmail.com",
     ariaLabel: "Email",
     icon: Mail,
     color: "#EA4335",
