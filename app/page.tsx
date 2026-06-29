@@ -44,7 +44,7 @@ const linksData: LinkItem[] = [
   {
     title: "Resume",
     description: "View & download my latest resume",
-    href: "https://drive.google.com/file/d/10hdAYgZ36zFGJ-kj5-kJE0EF5cJQBbh_/view?usp=drive_link",
+    href: "https://drive.google.com/file/d/1tu0QenFZIEciDSA0GerFjF4Ck_mbgOTq/view?usp=drive_link",
     iconUrl: "https://ugc.production.linktr.ee/4c06f002-d396-4ce6-a082-39fd1ec50e7e_image.png",
   },
   {
@@ -55,7 +55,7 @@ const linksData: LinkItem[] = [
   },
   {
     title: "GeeksforGeeks",
-    description: "Check out my coding solutions",
+    description: "View my coding journey",
     href: "https://www.geeksforgeeks.org/profile/codesnip85r2",
     iconUrl: "https://ugc.production.linktr.ee/bfbca0fd-fcf7-4e30-84ab-f3b5ad5f4d32_unnamed-removebg-preview.png",
   },
